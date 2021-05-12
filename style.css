@@ -1,0 +1,104 @@
+body {
+    margin: 0%;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(img/back1.png);
+}
+
+#formulario {
+    margin-left: 42%;
+    margin-top: 2em;
+    display: inline-block;
+    border-radius: 3em;
+}
+
+#calcula {
+    text-decoration: none;
+    color: white;
+    background-color: green;
+    border-radius: 1em;
+    padding: 1em;
+    margin-top: 5%;
+    font-weight: bold;
+}
+
+#calcula:hover {
+    transition: 1s;
+    background-color: rgb(8, 255, 8);
+    color: rgb(126, 166, 251);
+}
+
+#mainForm {
+    display: inline-block;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 3em; 
+}
+
+h2 {
+    color: white;
+}
+
+label{
+    padding: 1em;
+}
+
+input {
+    padding: 0.5em;
+    margin: 3%;
+}
+
+fieldset {
+  width:16em;
+  height:15em;
+  background-color: darkcyan;
+  border-radius: 1em;
+  text-decoration: none;
+  border: none;
+  text-align: center;
+  padding: 1em 1em 1em 1em;
+  -webkit-box-shadow: 25px 25px 36px 16px rgba(255,255,255,0.14);
+  -moz-box-shadow: 25px 25px 36px 16px rgba(255,255,255,0.14);
+  box-shadow: 25px 25px 36px 16px rgba(255,255,255,0.14);
+}
+
+/* FOOTER */
+footer {
+    background: #3f3f3f;
+    padding: 1em ;
+    margin-top: 21%;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+#devFooter {
+    font-size: 110%;
+}
+
+#devFooter:hover {
+    animation: bounce;
+    animation-duration: 2s;
+    color: aqua;
+    filter: brightness(3em);
+}
+
+#emailFooter {
+    text-decoration: none;
+    color: white;
+}
+
+#emailFooter:hover {
+    animation: bounce;
+    animation-duration: 2.5s;
+}
+
+#subtitleContact {
+    font-size: 90%;
+    color: white;
+}
+
+#contactFooter {
+    text-decoration: none;
+    color: rgb(100, 255, 82);
+}
